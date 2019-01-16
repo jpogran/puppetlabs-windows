@@ -15,7 +15,7 @@ describe 'Windows module can be installed' do
 
     # Build the Windows module tarball
     Dir.chdir(project_root) do
-      `puppet module build`
+      `pdk build`
     end
 
     # Get the name of the new tarball
